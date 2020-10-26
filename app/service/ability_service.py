@@ -21,6 +21,8 @@ async def get_up_socket(prev_request):
 
         if local_port == "9000":
             url = "{}://localhost:{}/{}".format(protocol, local_port, filename)
+        elif local_port == "9002":
+            url = "{}://localhost:{}/{}".format(protocol, local_port, filename)
         else:
             raise Exception('当前不支持')
 
@@ -133,6 +135,8 @@ def forward_request(prev_request):
         if local_port == "9001":
             url = 'http://localhost:{}/web/{}'.format(local_port, filename)
         elif local_port == "9000":
+            url = 'http://localhost:{}/{}'.format(local_port, filename)
+        elif local_port == "9002":
             url = 'http://localhost:{}/{}'.format(local_port, filename)
         else:
             raise Exception('当前不支持')
