@@ -1,8 +1,7 @@
-# -*-coding:utf-8-*-
 from app.service.http_client import http_client
 
 
-service_name = 'umm'
+service_name = 'uvisible'
 
 
 def find_and_call_ability(uuid, jwt=None):

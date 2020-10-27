@@ -3,16 +3,16 @@ serviceboot:
 
 service:
   cname: CubeAI能力开放网关
-  ename: ability
+  ename: visible-ability
   version: 2.3.0
   port:
-    dev: 8104
+    dev: 8108
     prod: 80
 
 gateway:
   is_gateway: yes
 
 build:
-  image_name: abilitypy
+  image_name: visible-abilitypy
   build_web: no
   compile_python_to_so: no
