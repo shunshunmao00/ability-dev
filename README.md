@@ -1,4 +1,4 @@
-# ability
+# visible-ability
 
 CubeAI ★ 智立方中用于提供AI开放能力网关服务的微服务。
 
@@ -27,7 +27,7 @@ CubeAI ★ 智立方中用于提供AI开放能力网关服务的微服务。
 
 ## 开发
 
-1. 开发环境中运行ability之前，需要先拉起项目依赖的后台docker，以及uaa微服务。
+1. 开发环境中运行visible-ability之前，需要先拉起项目依赖的后台docker，以及uaa微服务。
 
         cd ~/cubeai/docker/dev-python
         docker-compose up
